@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentEntryForm", "StudentEntryForm\StudentEntryForm.csproj", "{193A5396-53DF-451A-BE3B-0814F3B46166}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entry Forms", "StudentEntryForm\Entry Forms.csproj", "{193A5396-53DF-451A-BE3B-0814F3B46166}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
