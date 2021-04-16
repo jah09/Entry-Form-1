@@ -21,14 +21,14 @@
             background: linear-gradient(to left, #c2e59c, #64b3f4);
         }
         .container{
-            padding: 30px 6em;
-            max-width: 800px;
+            padding: 30px 6rem;
+            max-width: 700px;
             width: 100%;
-            min-width: 400px;
-            min-height: 600px;
-            height: 80%;
+            min-width: 300px;
+            min-height: 500px;
+            height: 90vh;
             background-color:rgba(255, 255, 255,0.8);
-            overflow: scroll;
+            overflow-y: scroll;
  
         }
         .tittle{
