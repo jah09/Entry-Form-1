@@ -21,18 +21,19 @@
             background: linear-gradient(to left, #c2e59c, #64b3f4);
         }
         .container{
-            padding: 2px 6rem;
-            max-width: 600px;
+            padding: 50px 80px;
+            max-width: 700px;
             width: 100%;
-            min-width: 300px;
+            min-width: 400px;
             min-height: 400px;
-            height: 90vh;
+           
             background-color:rgba(255, 255, 255,0.8);
-            overflow-y: scroll;
+          
  
         }
         .tittle{
-            font-size: 1em;
+           margin-top: 2.3em;
+            font-size: 1.2em;
             font-style:inherit;
             text-align:center;
              margin-bottom : 5px;
@@ -43,13 +44,13 @@
             height:5px;
             width: 100%;
             background: linear-gradient(to left, #c2e59c, #64b3f4);
-            
         }
       
-        .container .info-inputs{
+        .container .info-inputs, {
             display:inline-block;
             flex-wrap:wrap;
             justify-content:space-between;
+        
             
         }
         .input-details{
@@ -57,16 +58,16 @@
             
         }
         .label{
-            font-size:0.7em;
+            font-size:0.8em;
         }
         .label_gen{
-            font-size:0.6em;
+            font-size:0.8em;
         }
         
         .txtbox{
             width: 100%;
-            height:1.8em;
-            margin-top: 0.1em;
+            height:2rem;
+            margin-top: 0.5em;
             margin-bottom: 0.2em;
             font-size: 0.6em;
         }
@@ -150,8 +151,8 @@
                 
                 <div class=" input-detail gender">
                      <asp:Label ID="lblGender" CssClass="label" runat="server" Text="Gender"></asp:Label>
-                    <asp:RadioButton ID="radBMale" CssClass="label_gen" GroupName="gender" Text="Male" runat="server" />
-                    <asp:RadioButton ID="radBFmale" CssClass="label_gen" GroupName="gender" Text="Female" runat="server" />
+                    <asp:RadioButton ID="radBMale" CssClass="label_gen" GroupName="gender" Text=" Male" runat="server" />
+                    <asp:RadioButton ID="radBFmale" CssClass="label_gen" GroupName="gender" Text=" Female" runat="server" />
                 </div>
                  <asp:Button CssClass="btnSubmit" ID="btnSubmit" runat="server" Text="Submit" BorderStyle="None" ForeColor="White" />
             </div>
